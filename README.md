@@ -46,29 +46,6 @@ cd Beetroot_yolo
 
 ---
 
-## 🧰 Git LFS for Contributors
-
-If you're contributing and want to **push new large files**, follow these steps:
-
-1. Track the file type (e.g., `.pt`):
-   ```
-   git lfs track "*.pt"
-   ```
-
-2. Stage the `.gitattributes` and your files:
-   ```
-   git add .gitattributes
-   git add path/to/your_model.pt
-   ```
-
-3. Commit and push:
-   ```
-   git commit -m "Add model with Git LFS"
-   git push origin main
-   ```
-
----
-
 ## 🐍 Set Up the Virtual Environment
 
 Create and activate the virtual environment called `btenv`:
