@@ -94,7 +94,7 @@ source btenv/bin/activate
 Install all required Python packages using the `requirements.txt` file:
 
 ```
-pip install -r requirements.txt
+pip install -r yolov7/requirements.txt
 ```
 
 ---
